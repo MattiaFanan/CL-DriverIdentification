@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/MattiaFanan/CL-DriverIdentification/tree/main">
-    <img src="Figure/logo.png" alt="Logo" width="150" height="150">
+    <img src="Figures/logo.png" alt="Logo" width="150" height="150">
   </a>
 
   <h1 align="center">Continual Learning for Behavior-based Driver Identification</h1>
