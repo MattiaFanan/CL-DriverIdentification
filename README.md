@@ -42,7 +42,7 @@ This study addresses the Driver Identification problem in a realistic setting, w
 
 ## ⚙️ Usage
 
-To execute the our framework, start by cloning the repository:
+To execute to our framework, start by cloning the repository:
 
 ```bash
 git clone https://github.com/MattiaFanan/CL-DriverIdentification.git
@@ -55,6 +55,22 @@ Then, install the required Python packages by running:
 ```bash
 pip install -r requirements.txt
 ```
+
+<p align="right"><a href="#top">(back to top)</a></p>
+<div id="models"></div>
+
+## ⚙️ Additional Info
+
+The code automatically logs the metrics on Weights & Biases (wandb library), so you will need an account there. 
+
+The main experiments require the file api_key.json to log into Weights & Biases.
+
+```bash
+{
+    "api-key": "put your api-key here"
+}
+```
+The auto_main instead takes the dataset as data/dataset.csv, you may want to change this in the base_main_args list right after the imports.
 
 <p align="right"><a href="#top">(back to top)</a></p>
 <div id="models"></div>
